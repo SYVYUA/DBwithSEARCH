@@ -17,7 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public static final String KEY_WORD2 = "ru_name";
 
 
-    public DBHelper(@Nullable Context context, @Nullable String name, int version) {
+    public DBHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
